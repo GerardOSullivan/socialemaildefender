@@ -1,5 +1,3 @@
-import Script from 'next/script';
-
 export default function Newsletter() {
   return (
     <section>
@@ -30,57 +28,14 @@ export default function Newsletter() {
             </div>
 
             {/* CTA form */}
-            <form
-                  method="post"
-                  action="https://sendfox.com/form/1dp5z5/36780e"
-                  className="w-full lg:w-1/2"
-                  id="36780e"
-                  data-async="true"
-                  data-recaptcha="true"
-                >
-                    <input
-                    className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="First Name…" aria-label="First Name…"
-                      type="text"
-                      id="sendfox_form_name"
-                      name="first_name"
-                      required
-                    />
-                    <input
-                    className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Last Name…" aria-label="Last Name…"
-                      type="text"
-                      id="sendfox_form_last_name"
-                      name="last_name"
-                      required
-                    />
-                    <input
-                    className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Your email…" aria-label="Your email…"
-                      type="email"
-                      id="sendfox_form_email"
-                      name="email"
-                      required
-                    />
-                    <label>
-                      <input 
-                      type="checkbox" name="gdpr" value="1" required style={{marginRight:20, marginTop:10, marginBottom:10}} />
-                      I agree to receive email updates and promotions.
-                    </label>
-                  <div
-                    style={{ position: 'absolute', left: '-5000px' }}
-                    aria-hidden="true"
-                  >
-                    <input
-                      type="text"
-                      name="a_password"
-                      // tabIndex="-1"
-                      value=""
-                      autoComplete="off"
-                    />
-                  </div>
-                  <p>
-                    <button className="btn text-purple-600 bg-purple-100 hover:bg-white shadow" type="submit">Subscribe</button>
-                  </p>
-                </form>
-                <Script src="https://cdn.sendfox.com/js/form.js" strategy="afterInteractive" />
+            <form className="w-full lg:w-1/2">
+              <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
+                <input type="email" className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Your best email…" aria-label="Your best email…" />
+                <a className="btn text-purple-600 bg-purple-100 hover:bg-white shadow" href="#0">Subscribe</a>
+              </div>
+              {/* Success message */}
+              {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
+            </form>
 
           </div>
 

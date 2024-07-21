@@ -1,5 +1,3 @@
-import Script from 'next/script';
-
 export default function Newsletter() {
   return (
     <section>
@@ -80,7 +78,6 @@ export default function Newsletter() {
                     <button className="btn text-purple-600 bg-purple-100 hover:bg-white shadow" type="submit">Subscribe</button>
                   </p>
                 </form>
-                <Script src="https://cdn.sendfox.com/js/form.js" strategy="afterInteractive" />
 
           </div>
 

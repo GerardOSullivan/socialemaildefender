@@ -12,7 +12,7 @@ export default function Zigzag() {
             <h1 className="h2 mb-4">What am I giving you money for?</h1>
             <p className="text-xl text-gray-400">Our training includes regular exercises such as random email tests throughout the month. You can report these emails to report@socialemaildefender.com and receive detailed feedback on your performance. designed to sharpen your ability to spot fraudulent emails and avoid falling victim to phishing and other scams. We also offer additional monthly training and advice on the latest advancements in social engineering techniques.</p>
             <h1 className="h2 mb-4">How much is this going to cost?</h1>
-            <p className="text-xl text-gray-400">By opting for our affordable monthly plan at €4.99 — priced significantly lower than standard antivirus subscriptions—you're securing comprehensive defense strategies. These plans tackle both technological and human vulnerabilities, ensuring a robust digital presence, underscoring the heightened importance of cybersecurity today.</p>         
+            <p className="text-xl text-gray-400">By opting for our affordable monthly plan at €4.99 or our yearly plan at €29.99—priced significantly lower than standard antivirus subscriptions—you're securing comprehensive defense strategies. These plans tackle both technological and human vulnerabilities, ensuring a robust digital presence, underscoring the heightened importance of cybersecurity today.</p>         
           </div>
         </div>
       </div>

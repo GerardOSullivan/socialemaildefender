@@ -1,4 +1,6 @@
 "use client";
+import VideoThumb from '@/public/images/hero-image-01.jpg'
+import ModalVideo from '@/components/modal-video'
 export const useClient = true;
 
 export default function Hero() {
@@ -25,10 +27,19 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Have you previously been the victim of a scam?</h1>
+            <h1 className="h1 mb-4" data-aos="fade-up">TEST Have you previously been the victim of a scam?</h1>
             <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="300">Without the correct protection hackers can obtain your data and use it for malicious activity. Some do this by getting you to click links in emails. Others do this through phone calls. All of them do it to try and manipulate you.</p>
 
           </div>
+
+          <ModalVideo
+            thumb={VideoThumb}
+            thumbWidth={1024}
+            thumbHeight={576}
+            thumbAlt="Modal video thumbnail"
+            video="/videos/video.mp4"
+            videoWidth={1920}
+            videoHeight={1080} />
 
         </div>
 

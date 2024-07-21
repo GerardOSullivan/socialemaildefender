@@ -1,5 +1,3 @@
-import Script from 'next/script';
-
 export default function Newsletter() {
   return (
     <section>
@@ -61,7 +59,7 @@ export default function Newsletter() {
                     />
                     <label>
                       <input 
-                      type="checkbox" name="gdpr" value="1" required style={{marginRight:20, marginTop:10, marginBottom:10}} />
+                      type="checkbox" name="gdpr" value="1" required style={{marginRight:20}} />
                       I agree to receive email updates and promotions.
                     </label>
                   <div
@@ -80,7 +78,7 @@ export default function Newsletter() {
                     <button className="btn text-purple-600 bg-purple-100 hover:bg-white shadow" type="submit">Subscribe</button>
                   </p>
                 </form>
-                <Script src="https://cdn.sendfox.com/js/form.js" strategy="afterInteractive" />
+                <script src="https://cdn.sendfox.com/js/form.js" strategy="afterInteractive" />
 
           </div>
 

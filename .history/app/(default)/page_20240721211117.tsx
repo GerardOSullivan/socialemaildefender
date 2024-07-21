@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <div style={{paddingBottom:30}}>
+      <div style={{paddingBottom:1000}}>
       <Newsletter />
       </div>
       <ModalVideo

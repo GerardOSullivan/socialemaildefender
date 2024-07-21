@@ -15,9 +15,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <div style={{paddingBottom:30}}>
       <Newsletter />
-      </div>
+      <div style={{paddingBottom:30}}
       <ModalVideo
             thumb={VideoThumb}
             thumbWidth={1024}

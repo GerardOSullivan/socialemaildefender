@@ -1,13 +1,17 @@
 "use client";
 export const useClient = true;
+import { useRouter } from 'next/navigation';
 
-export default function Hero() {
+export default function ThankYou() {
+  const router = useRouter();
 
+  const handleClick = () => {
+    router.push('/');
+  };
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
 
-        {/* Illustration behind hero content */}
         <div className="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">
           <svg className="max-w-full" width="564" height="552" viewBox="0 0 564 552" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -25,9 +29,15 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Have you previously been the victim of a scam?</h1>
-            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="300">Without the correct protection hackers can obtain your data and use it for malicious activity. Some do this by getting you to click links in emails. Others do this through phone calls. All of them do it to try and manipulate you.</p>
-
+            <h1 className="h1 mb-4" data-aos="fade-up">Thank you for subscribing to the newsletter</h1>
+            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="300">Click bellow to return to the homepage</p>
+            <button
+      className="btn text-purple-600 bg-purple-100 hover:bg-white shadow"
+      type="button" // Prevent form submission if used within a form
+      onClick={handleClick}
+    >
+      Return to Home
+    </button>
           </div>
 
         </div>
