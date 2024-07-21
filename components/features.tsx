@@ -6,8 +6,8 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">The majority our customers do not understand their workflows.</h2>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2 className="h2 mb-4">Phishing is the most common form of social engineering attack. </h2>
+            <p className="text-xl text-gray-400">You're going about your day, checking emails, when suddenly you receive a message that seems urgent or important. It could be from someone you think you know or a company you trust. They want you to click a link or give them some information right away. But here's the catch: it's not really who you think it is. It's a clever trick by attackers trying to sneak into your computer or steal your personal details. Don't fall for it! Stay savvy and think twice before clicking or sharing. Your security is worth more than a quick click.</p>
           </div>
 
           {/* Items */}
@@ -20,8 +20,8 @@ export default function Features() {
                 <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2 text-center">Evolution and Adaptation</h4>
+              <p className="text-lg text-gray-400 text-center">Phishing tactics continually evolve with technological advancements, such as AI-generated phishing emails that mimic human communication patterns, making them harder to detect.</p>
             </div>
 
             {/* 2nd item */}
@@ -31,8 +31,8 @@ export default function Features() {
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2 text-center">Common Techniques Used</h4>
+              <p className="text-lg text-gray-400 text-center">Phishers often use techniques like spoofed email addresses, urgent language, and enticing links to manipulate recipients into clicking on malicious links or attachments.</p>
             </div>
 
             {/* 3rd item */}
@@ -45,8 +45,8 @@ export default function Features() {
                   <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2 text-center">Effectiveness Comparison</h4>
+              <p className="text-lg text-gray-400 text-center">Social engineering attacks are often more effective than software attacks; for instance, 91% of cyberattacks start with a phishing email, demonstrating the potency of exploiting human behavior in compromising cybersecurity.</p>
             </div>
 
             {/* 4th item */}
@@ -58,8 +58,8 @@ export default function Features() {
                   <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2 text-center">Psychological Manipulation</h4>
+              <p className="text-lg text-gray-400 text-center">Phishers exploit psychological tactics like urgency, fear, curiosity, or trust to persuade recipients to take actions that compromise their security, such as clicking on a malicious link or providing sensitive information.</p>
             </div>
 
             {/* 5th item */}
@@ -71,8 +71,8 @@ export default function Features() {
                   <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2 text-center">Phishing as a Gateway to Further Attacks</h4>
+              <p className="text-lg text-gray-400 text-center">Successful phishing attacks can serve as a gateway for more sophisticated cyber threats, including ransomware infections, data breaches, and network infiltrations, amplifying the initial damage. </p>
             </div>
 
             {/* 6th item */}
@@ -85,8 +85,8 @@ export default function Features() {
                   <path className="stroke-current text-purple-100" d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2 text-center">Impersonation of Trusted Entities</h4>
+              <p className="text-lg text-gray-400 text-center">Phishers often impersonate well-known brands, government agencies, or familiar contacts to deceive recipients into believing their fraudulent communications are legitimate, increasing the likelihood of successful phishing attempts</p>
             </div>
 
           </div>
