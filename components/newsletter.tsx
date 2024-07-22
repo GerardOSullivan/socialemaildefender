@@ -25,8 +25,8 @@ export default function Newsletter() {
 
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-white mb-2">Stay in the loop</h3>
-              <p className="text-purple-200 text-lg">Join our newsletter to get top news before anyone else.</p>
+              <h3 className="h3 text-white mb-2">SUBSCRIBE FOR A <span className="h2 text-white mb-2" style={{textDecoration:'underline'}}>FREE</span> PDF CHECKLIST OF POTENTIAL EMAIL TRAPS</h3>
+              <p className="text-purple-200 text-lg">Join our newsletter and get monthly tips and tricks to help keep you safe from scammers.</p>
             </div>
 
             {/* CTA form */}
@@ -35,8 +35,6 @@ export default function Newsletter() {
                   action="https://sendfox.com/form/1dp5z5/36780e"
                   className="w-full lg:w-1/2"
                   id="36780e"
-                  data-async="true"
-                  data-recaptcha="true"
                 >
                     <input
                     className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="First Name…" aria-label="First Name…"
